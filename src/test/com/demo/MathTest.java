@@ -45,6 +45,7 @@ public class MathTest {
 //    常用的Matcher:
 //    a)         assertThat( n, allOf( greaterThan(1), lessThan(15) ) );
 //    assertThat( 33, anyOf( greaterThan(16), lessThan(8) ) );
+//    assertThat("fab", both(containsString("a")).and(containsString("b")))
 //    assertThat( 12, anything() );
 //    assertThat( str, is( "bjsxt" ) );
 //    assertThat( str, not( "bjxxt" ) );
